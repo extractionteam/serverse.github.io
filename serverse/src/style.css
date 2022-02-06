@@ -1,0 +1,233 @@
+@import '@fontsource/fira-mono';
+
+
+:root {
+	font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+	--pure-white: #ffffff;
+	--primary-color: #ddd;
+	--secondary-color: #ccc;
+	--tertiary-color: #edf0f8;
+	--accent-color: hsl(186, 65%, 55%);
+	--heading-color: rgb(15, 25, 38);
+	--text-color: #444444;
+	--background: #111;
+	--background-without-opacity: rgba(255, 255, 255, 0.7);
+    --background-dark: rgba(26, 30, 35);
+	--column-width: 42rem;
+	--column-margin-top: 4rem;
+}
+
+body {
+	font-family: 'Fira Mono', monospace;
+	min-height: 100vh;
+	margin: 0;
+	background-color: var(--pure-white);
+}
+
+.logo {
+    color: #5865f2;
+    font: 900 90px/100px "Ubuntu", sans-serif;
+    letter-spacing: -1px;
+    margin: 10px 0;
+    text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
+	width: 100%;
+    max-width: 550px;
+    padding: 80px;
+		padding-bottom: 15px;
+    margin: auto;
+  }
+
+/* Containers  */
+.container-text {
+	text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
+	width: 100%;
+    max-width: 550px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.container-form {
+	text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
+	width: 100%;
+    max-width: 1250px;
+    padding: 10px;
+    margin: auto;
+}
+
+.main {
+    text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
+	width: 100%;
+    max-width: 1250px;
+    padding: 15px;
+    margin: auto;
+}
+
+/* Text elements */
+h1,
+h2,
+p {
+	line-height: 1.5;
+    color: var(--text-color);
+}
+
+a {
+	color: var(--accent-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: left
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+/* Buttons */
+input,
+button {
+    width: 100%;
+    height: 60px;
+    max-width: 550px;
+    padding: 10px;
+    margin: auto;
+	font-size: inherit;
+	font-family: inherit;
+    background-color:  var(--pure-white);
+    border: 3px solid rgb(59, 59, 59);
+    border-radius: 3px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-width: 0;
+    color: #000000;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0 0 0px;
+    padding: 4px 10px 4px 6px;
+    height: 80px;
+    line-height: 80px;
+}
+
+/* Box containers */
+.boxcontainer {
+    width: 100%;
+    height: 60px;
+    max-width: 650px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+	font-size: inherit;
+	font-family: inherit;
+    color: var(--background);
+    background-color:  var(--pure-white);
+    border: 2px solid var(--background);
+		border-color: #abb2f8;
+    border-radius: 3px;
+}
+
+.box-action .form-group{
+    width: 100%;
+    padding-right: 50px;
+    margin-bottom: 0;
+}
+
+.boxcontainer .form-control{
+    border-radius: 3px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-width: 0;
+    color: var(--pure-white);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 0px;
+    padding: 5px 10px 5px 6px;
+    height: 60px;
+    line-height: 14px;
+}
+
+.boxcontainer .form-control::placeholder {
+    color: var(--pure-white);
+		font-family: "Fira Mono" monospace;
+}
+
+.boxcontainer .btn-action{
+    border-radius: 8px;
+    border: solid 1px #f0ede9;
+    background-color: var(--background);
+    font-family: "Fira Mono" monospace;
+    line-height: normal;
+    font-size: 14px;
+		padding: 15px;
+}
+
+.boxcontainer .form-control{
+    border-radius: 3px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-width: 0;
+    color: var(--background);
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 0px;
+    padding: 4px 10px 4px 6px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.boxcontainer .form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.boxcontainer .form-control::placeholder {
+    color: rgb(126, 126, 126);
+    opacity: 0.16;
+    font-size: 20px;
+}
+
+.boxcontainer .btn-action{
+    border-radius: 3px;
+    border: solid 2px #5865f2;
+    background-color: #5865f2;
+    padding: auto;
+    font-family: "Fira Mono" monospace;
+    font-size: 20px;
+		color: white;
+    height: 60px;
+		padding: 15px;
+}
+
+.boxcontainer .btn-action:hover{
+    border-radius: 3px;
+    border: solid 2px #7983f4;
+    background-color: #7983f4;
+    padding: auto;
+    font-family: "Fira Mono" monospace;
+    font-size: 20px;
+    height: 60px;
+		cursor: pointer;
+		padding: 15px;
+}

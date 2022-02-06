@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+}
+
+
+:root {
+	font-family: 'Karla', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; 
+	--pure-white: #ffffff;
+	--light-grey: #ddd;
+    --dark-grey: rgb(45, 52, 65);
+	--secondary-color: #ccc;
+	--tertiary-color: #edf0f8;
+	--accent-color: #c9f3fd;
+	--headings: rgb(45, 52, 65);
+    --lead: #4b5563;
+    --links: #111827;
+    --bold: #111827;
+    --captions: #6b7280;
+    --bullets: #4b5563;
+	--text-color: #444444;
+	--pure-black: #000;
+	--grey: rgb(45, 52, 65);
+	--column-width: 42rem;
+	--column-margin-top: 4rem;
+	--font-size: 1rem;
+    --line-height: 1.75
+}
+
+
+body {
+    display: flex;
+	font-family: 'Karla';
+	color: var(--grey);
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+	font-size: 1.25rem;
+    line-height: 1.75rem;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 3.75rem;
+    line-height: 1;
+	font-weight: 800;
+	color: var(--headings);
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 1.5rem;
+	color: var(--lead);
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0,5em;
+    margin-block-end: 3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+}
+
+
+p {
+	text-align: left;
+	font-family: 'Karla';
+}
+
+
+a {
+    color: var(--headings);
+	text-decoration: none;
+    font-style: normal;
+  }
+
+
+a:hover {
+    color: var(--dark-grey);
+	text-decoration: underline;
+    font-style: normal;
+  }
+
+
+.main {
+    width: 100%;
+    max-width: 600px;
+    padding-left: 50px;
+	padding-right: 50px;
+    margin: auto;
+  }
+
+  img:hover,
+  img:focus{
+    transform: rotate(360deg);
+    transition: transform .7s ease-in-out;
+  }
