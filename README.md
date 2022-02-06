@@ -2,7 +2,7 @@
 
 ## Tools
 
-- Serverse
+- [Serverse](https://extraction.team/serverse.html)
 
 ### Serverse
 ![serverse gif](https://github.com/extractionteam/serverse/blob/main/static/serverse.gif?raw=true)
