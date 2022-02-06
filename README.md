@@ -1,6 +1,10 @@
-# extractionteam
+# Extraction Team
 
-# Serverse
+## Tools
+
+- Serverse
+
+### Serverse
 ![serverse gif](https://github.com/extractionteam/serverse/blob/main/static/serverse.gif?raw=true)
 
 Serverse is a wrapper for Google Search and Yandex that checks multiple Discord server aggregators and shows results for the keyword you search for.
