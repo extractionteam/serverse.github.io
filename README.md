@@ -1,6 +1,6 @@
 # Extraction Team
 
-## Tools
+## Our Tools
 
 - [Serverse](https://extraction.team/serverse.html)
 
