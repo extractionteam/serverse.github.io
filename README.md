@@ -2,7 +2,7 @@
 
 ## Our Tools
 
-- [Serverse](https://extraction.team/serverse.html)
+- [Serverse](https://extraction.team/serverse.html) - search for Discord servers by keyword
 
 ### Serverse
 
