@@ -5,7 +5,7 @@ body {
 
 
 :root {
-	font-family: 'Karla', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; 
+	font-family: 'Karla', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 	--pure-white: #ffffff;
 	--light-grey: #ddd;
     --dark-grey: rgb(45, 52, 65);
@@ -89,7 +89,7 @@ a {
 
 a:hover {
     color: var(--dark-grey);
-	text-decoration: underline;
+	  text-decoration: underline;
     font-style: normal;
   }
 
@@ -102,8 +102,10 @@ a:hover {
     margin: auto;
   }
 
-  img:hover,
-  img:focus{
-    transform: rotate(360deg);
-    transition: transform .7s ease-in-out;
+  img:hover {
+    opacity: 0.75;
+  }
+
+  .serverse-title {
+    padding-top: 3px;
   }
