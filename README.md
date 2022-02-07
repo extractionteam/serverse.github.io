@@ -1,6 +1,6 @@
 # Extraction Team
 
-## Our Tools
+## Tools
 
 - [Serverse](https://extraction.team/serverse.html) - search for Discord servers by keyword
 
