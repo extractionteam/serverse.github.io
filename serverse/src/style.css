@@ -231,3 +231,14 @@ button {
 		cursor: pointer;
 		padding: 15px;
 }
+
+.infobox {
+
+    color: #7983f4;
+
+}
+
+.infobox:focus {
+    box-shadow: none;
+    outline: none;
+}
